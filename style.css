@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.content {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 89.5vh;
+  flex-direction: column;
+}
+.select-loteria{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+label{
+  font-size: 15px;
+  font-family: sans-serif;
+  align-self: center;
+}
+select{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 2px solid #21243D;
+  border-radius: 5px;
+  width: 200px;
+  align-self: center;
+}
+.content .data h2{
+  font-size: 35px;
+  font-family: sans-serif;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #21243D;
+}
+.content .data p{
+  text-align: center;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #21243D;
+}
+.content .data i{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.content2{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: yellow;
+  padding: 10px;
+}
+.content2 section{
+  border: 1px solid black;
+  margin: 0 3px;
+  border-radius: 5px;
+  padding: 10px 5px;
+  background: #ffffff;
+}
+
+.one,
+.two,
+.three,
+.four {
+  /*background: yellow;*/
+  width: 55px;
+  height: 55px;
+  border: .5px solid #777;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+}
+.signo{
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 2px solid #68a;
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: none;
+}
+.signo h3{
+  color: #512B58;
+}
+span {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: floralwhite;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  border: .5px solid #777;
+}
+
+button{
+  background: #21243D;
+  font-size: 20px;
+  font-weight: bold;
+  color: lightblue;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 7px 15px;
+}
+
+.footer{
+  text-align: center;
+  background-color: lightblue;
+  padding: 2px;
+  border: 1px solid #000;
+}
+
+@keyframes girar{
+  10%{
+    transform: rotate(45deg);
+  }
+  40%{
+    transform: rotate(90deg);
+  }
+  90%{
+    transform: rotate(189deg)
+  }
+}
